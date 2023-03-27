@@ -1,0 +1,47 @@
+.App {
+  max-width: 1280px;
+  text-align: center;
+  margin: 0 auto;
+}
+
+a{
+  text-decoration: none;
+  color: black;
+}
+
+a:hover{
+  color: rgb(235, 64, 112);
+}
+
+.globalnavigation{
+  display: flex;
+  justify-content: space-around;
+  align-content: center;
+  flex-wrap: wrap;
+  margin: 15px 0;
+  background-color: pink;
+  min-height: 50px;
+}
+
+.herobillede{
+  width: 100%;
+}
+
+.herotekst{
+  position: absolute;
+  top: 60%;
+  width: 100%;
+  color: white;
+}
+
+.servicekort{
+  display: flex;
+  justify-content: space-around;
+  align-content: center;
+}
+
+.servicekort > div{
+  border: solid;
+  width: 100px;
+  height: 50px;
+}
